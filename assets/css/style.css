@@ -154,7 +154,8 @@ nav a:hover {
 * {
   margin: 0;
   padding: 0;
-  @include box-sizing(border-box);
+ /* @include box-sizing(border-box);*/
+  box-sizing: border-box;
 }
 
 html, body {
@@ -168,7 +169,7 @@ footer {
   margin: 2em 0;
   height: 70px;
   background-color: #999;
-  .copyright {
+ /* .copyright {
     width: 50%;
     float: left;
     @media (max-width: 600px) {
@@ -208,9 +209,8 @@ footer {
          background-color: #222;
          @include transition(all, .3s);
        }
-    }
+    }*/
   }
-}
 
 .linked {
   background-color: #1E83AE;
