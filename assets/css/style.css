@@ -44,11 +44,14 @@ header {
   font-size: 4em;
   line-height: 1.2em;
 }
+
+@media(max-width: 600px)
+{
   .inner h1{
     font-size: 2em;
     line-height: 1.2em;
   }
-
+}
 
 nav {
   position: fixed;
@@ -139,7 +142,6 @@ nav a:hover {
 
 /* FOOTER */
 /*@import "compass/css3";
-
 @import url(https://fonts.googleapis.com/css?family=Raleway);*/
 
 
@@ -151,8 +153,7 @@ nav a:hover {
 * {
   margin: 0;
   padding: 0;
- /* @include box-sizing(border-box);*/
-  box-sizing: border-box;
+  @include box-sizing(border-box);
 }
 
 html, body {
@@ -166,7 +167,7 @@ footer {
   margin: 2em 0;
   height: 70px;
   background-color: #999;
- /* .copyright {
+  .copyright {
     width: 50%;
     float: left;
     @media (max-width: 600px) {
@@ -206,8 +207,9 @@ footer {
          background-color: #222;
          @include transition(all, .3s);
        }
-    }*/
+    }
   }
+}
 
 .linked {
   background-color: #1E83AE;
@@ -266,7 +268,7 @@ h1 {
   /*background:#272727;*/
   padding: 20px 0px;
   padding-bottom: 0px;
-  
+
 }
 .page-icon{
   width: 100%;
@@ -285,7 +287,7 @@ h1 {
   height: 50px;
   margin: 0px 10px;
   border-radius: 100%;
-  background:#7DCEA0; 
+  background:white; 
 }
 .page-icon ul li a{
   text-decoration: none;
@@ -363,7 +365,7 @@ color: #fff
   color:  #7DCEA0;
 }
 
-/*@media(max-width:691px ){
+@media(max-width:691px ){
 .page-nav1 ul li a,.page-nav ul li a{
   font-size: 16px;
 }
@@ -386,7 +388,7 @@ color: #fff
 @media(max-width:539px ){
 .page-nav1 ul li a,.page-nav ul li a{
   font-size: 11px;
-}*/
+}
 .page-nav ul li{
   margin: 5px 20px;
 }
