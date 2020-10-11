@@ -285,7 +285,7 @@ h1 {
   height: 50px;
   margin: 0px 10px;
   border-radius: 100%;
-  background:white; 
+  background:#7DCEA0; 
 }
 .page-icon ul li a{
   text-decoration: none;
@@ -363,7 +363,7 @@ color: #fff
   color:  #7DCEA0;
 }
 
-@media(max-width:691px ){
+/*@media(max-width:691px ){
 .page-nav1 ul li a,.page-nav ul li a{
   font-size: 16px;
 }
@@ -386,7 +386,7 @@ color: #fff
 @media(max-width:539px ){
 .page-nav1 ul li a,.page-nav ul li a{
   font-size: 11px;
-}
+}*/
 .page-nav ul li{
   margin: 5px 20px;
 }
